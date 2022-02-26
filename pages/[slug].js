@@ -9,9 +9,7 @@ import { Animated } from 'react-animated-css'
 import title from '../lib/title'
 
 function App(props) {
-  if (!props.data) {
-    return <Text>404</Text>
-  }
+
   const [video, toggleVideo] = useState('0')
   const [back, toggleBack] = useState(false)
   const router = useRouter()
